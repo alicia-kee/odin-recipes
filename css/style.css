@@ -11,7 +11,7 @@ h1 {
     font-size: 60px;
 }
 
-#page-links{
+#page-links {
     font-size: 20px;
     font-family: "Times New Roman", sans-serif;
     font-weight: bold;
@@ -21,4 +21,17 @@ h1 {
 
     /*push links down a bit from h1*/
     margin-top: 70px;
+}
+
+h2 {
+    color: white;
+    background-color: #f097b2;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px; 
+}
+
+p {
+    color: #a41742;
+    font-family: "Times New Roman", sans-serif;
+    font-size: 20px; 
 }
