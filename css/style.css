@@ -1,3 +1,7 @@
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-color: rgb(168, 231, 231);
 }
@@ -9,18 +13,36 @@ h1 {
     font-weight: bold;
     font-family: "Brush Script MT", sans-serif;
     font-size: 60px;
+
+    width: 600px;
+    margin-right:auto;
+    margin-left:auto;
+    padding: 30px;
+    border: 15px double white;
+    margin-bottom: 50px;
 }
 
-#page-links {
+.page-links {
     font-size: 20px;
     font-family: "Times New Roman", sans-serif;
     font-weight: bold;
     color: white;
     background-color: #f097b2;
-    text-align: center;
+   
+    width: 500px;
+    margin: 0 auto;
+    padding: 15px;
+    border: 15px double white;
+}
 
-    /*push links down a bit from h1*/
-    margin-top: 70px;
+.links-message{
+    font-family: "Times New Roman", sans-serif;
+    font-size: 30px;
+    color: white;
+    text-align: center;
+    background-color: #e75480;
+    padding: 10px;
+    margin:10px;
 }
 
 h2 {
@@ -40,4 +62,10 @@ p {
     color: #a41742;
     font-family: "Times New Roman", sans-serif;
     font-size: 17px; 
+}
+
+img{
+    display: block;
+    padding: 20px;
+    margin: 0 auto;
 }
